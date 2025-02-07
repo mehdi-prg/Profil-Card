@@ -1,32 +1,15 @@
 /* globale style */
-body {
+body{ background-color: #19A1AD;
+  background-image: url(../images/bg-pattern-top.svg), url(../images/bg-pattern-bottom.svg);
+  background-position: -300px -600px, 600px 250px;
+  background-repeat: no-repeat, no-repeat;
   display: flex;
   justify-content: center;
   align-items: center;
   height: 100vh;
-  font-family: "Poppins", sans-serif;
-  background-color: hsl(185, 75%, 39%);
-  margin: 0;
-  position: relative;
-  overflow: hidden;
 }
 /* End globale style */
 
-.bool1 {
-  position: absolute;
-  width: 830px;
-  height: 680px;
-  bottom: -355px;
-  right: -200px;
-  border-radius: 4554px;
-}
-.bool2 {
-  position: absolute;
-  width: 701px;
-  height: 631px;
-  top: -302px;
-  left: -65px;
-}
 
 .profile-card {
   background: white;
